@@ -9,11 +9,27 @@ package com.parser
 
 fun main() {
 
-    val src = "d://parserExcel"
+    startParserFile()
 
-//    val fileName = "kds.xls"
-    val fileName = "waiting.xls"
+    startParserDir()
+}
+
+/**
+ * 转换指定文件
+ */
+private fun startParserFile() {
+
+    val src = "d://parserExcel"
+    val fileName = "kds.xls"
 
     val excelFile = ReadExcelFile()
-    excelFile.startParserFile(src = src, fileName = fileName)
+    excelFile.startParserFile(dir = src, fileName = fileName)
+}
+
+/**
+ * 目录下的所有excel文件转换
+ */
+private fun startParserDir() {
+    val excelFile = ReadExcelFile()
+    excelFile.startParserDir("D://parserExcel")
 }

@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/parser/bean/XlsBean.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFileKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/parser/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/utils/IOUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/utils/IOUtils.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,20 +22,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/parser/Test.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+            <state relative-caret-position="361">
+              <caret line="19" column="19" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1881">
+              <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1558">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-              <folding>
-                <element signature="n#!!block;n#readSheetName#0;n#!!block;n#ReadExcelFile#0" />
-              </folding>
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -61,9 +64,15 @@
     <findStrings>
       <find>ReadExcelFile</find>
       <find>`is`</find>
+      <find>跟</find>
+      <find>抹零</find>
+      <find>src</find>
     </findStrings>
     <replaceStrings>
       <replace>input</replace>
+      <replace>根</replace>
+      <replace>目录</replace>
+      <replace>dir</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -80,6 +89,7 @@
         <option value="$PROJECT_DIR$/src/com/parser/utils/IOUtils.kt" />
         <option value="$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt" />
         <option value="$PROJECT_DIR$/src/com/parser/Test.kt" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -114,20 +124,6 @@
               <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
@@ -219,17 +215,19 @@
       <workItem from="1577708878345" duration="518000" />
       <workItem from="1577709414822" duration="162000" />
       <workItem from="1577709989645" duration="481000" />
-      <workItem from="1577757889586" duration="11770000" />
+      <workItem from="1577757889586" duration="11899000" />
+      <workItem from="1577787316123" duration="2294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16661000" />
+    <option name="totallyTimeSpent" value="19084000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-112" width="1936" height="1216" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16541755" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1675589" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -238,17 +236,17 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12669246" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.25338492" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36266926" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.18085106" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32997987" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3279678" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.327853" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -389,20 +387,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/Test.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="-1881">
+          <caret line="46" column="33" lean-forward="true" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/parser/Test.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1558">
-          <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-          <folding>
-            <element signature="n#!!block;n#readSheetName#0;n#!!block;n#ReadExcelFile#0" />
-          </folding>
+        <state relative-caret-position="361">
+          <caret line="19" column="19" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

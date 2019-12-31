@@ -26,50 +26,47 @@ import javax.xml.transform.stream.StreamResult
  */
 class ReadExcelFile {
 
-    fun startParserFile(src: String, fileName: String) {
-        val mapList = this.readExcelFile(src = src, fileName = fileName)
-        this.writeXmlFile(xlsBeans = mapList, src = src)
+    /**
+     * 开始转换文件
+     *
+     * @param dir 根目录
+     * @param fileName 文件名
+     */
+    fun startParserFile(dir: String, fileName: String) {
+        val mapList = this.readExcelFile(dir = dir, fileName = fileName)
+        this.writeXmlFile(xlsBeans = mapList, dir = dir)
     }
 
     /**
-     * 读取excel表名，并保存在List列表中
-     * @return
+     * 转换目录下的所有excel文件
+     *
+     * @param dir 根目录
      */
-    private fun readSheetName(src: String, fileName: String): List<String>? {
-        var input: InputStream? = null
-        var wb: Workbook? = null
-        var list: MutableList<String>? = null
-        try {
-            input = FileInputStream("$src\\$fileName")
-            if (null != input) {
-                list = ArrayList()
-                wb = Workbook.getWorkbook(input)
-                val sheets = wb!!.sheets
-                val sheetLen = sheets.size
-                for (j in 0 until sheetLen) {
-                    list.add(sheets[j].name)
-                }
-            }
-        } catch (e: Exception) {
-            e.printStackTrace()
-        } finally {
-            IOUtils.close(input, wb)
+    fun startParserDir(dir: String) {
+        val dirs = File(dir).walk()
+        val files = dirs.filter {
+            it.isFile
+        }.filter {
+            it.name.endsWith(".xls", ignoreCase = true) || it.name.endsWith(".xlsx", ignoreCase = true)
         }
-        return list
+        files.forEach {
+            startParserFile(dir = it.parent, fileName = it.name)
+        }
     }
+
 
     /**
      * 读取excel内容
-     * @param src 跟抹零
+     * @param dir 根目录
      * @param fileName 文件名
      */
-    private fun readExcelFile(src: String, fileName: String): MutableList<XlsBean> {
+    private fun readExcelFile(dir: String, fileName: String): MutableList<XlsBean> {
         var input: InputStream? = null
         var wb: Workbook? = null
         var woSettings: WorkbookSettings?
         var xlsBeans = mutableListOf<XlsBean>()
         try {
-            input = FileInputStream("$src\\$fileName")
+            input = FileInputStream("$dir\\$fileName")
             if (null != input) {
                 woSettings = WorkbookSettings()
                 woSettings.encoding = "UTF-8"//设置编码格式
@@ -122,9 +119,9 @@ class ReadExcelFile {
     /**
      * 将所读excel的数据写入xml中，并按<String></String>格式保存
      * @param xlsBeans excel解析的内容
-     * @param src 跟目录
+     * @param dir 根目录
      */
-    private fun writeXmlFile(xlsBeans: MutableList<XlsBean>, src: String) {
+    private fun writeXmlFile(xlsBeans: MutableList<XlsBean>, dir: String) {
         if (xlsBeans.isNullOrEmpty()) {
             return
         }
@@ -150,11 +147,11 @@ class ReadExcelFile {
 
                     val packStr = it.sheetName
                     val fileName = key
-                    val file = File("$src/$packStr")
+                    val file = File("$dir/$packStr")
                     if (!file.exists()) {
                         file.mkdirs()
                     }
-                    saveXmlData(document, src, packStr, fileName)
+                    saveXmlData(document, dir, packStr, fileName)
                 }
             }
         }
@@ -180,18 +177,18 @@ class ReadExcelFile {
     /**
      * 保存xml文件
      * @param document
-     * @param src 跟目录
+     * @param dir 根目录
      * @param packStr 包名
      * @param fileName 文件名
      */
-    private fun saveXmlData(document: Document?, src: String, packStr: String, fileName: String) {
+    private fun saveXmlData(document: Document?, dir: String, packStr: String, fileName: String) {
         val tFactory = TransformerFactory.newInstance()
         try {
             val tFTransformer = tFactory.newTransformer()
             tFTransformer.setOutputProperty(OutputKeys.INDENT, "yes")
             tFTransformer.transform(
                 DOMSource(document), StreamResult(
-                    "$src/$packStr/$fileName.txt"
+                    "$dir/$packStr/$fileName.txt"
                 )
             )
         } catch (e: java.lang.Exception) {
