@@ -1,12 +1,11 @@
 package com.parser.xmlToXls
 
 import com.parser.utils.IOUtils
-import com.parser.xmlToXls.bean.CusRow
+import com.parser.xmlToXls.bean.CusRowBean
 import com.parser.xmlToXls.bean.FloderBean
 import com.parser.xmlToXls.bean.XlsWriteBean
 import com.parser.xmlToXls.constant.Constants
 import org.apache.poi.hssf.usermodel.HSSFWorkbook
-import org.apache.poi.ss.usermodel.CreationHelper
 import org.apache.poi.ss.usermodel.Row
 import org.apache.poi.ss.usermodel.Sheet
 import org.apache.poi.ss.usermodel.Workbook
@@ -183,7 +182,7 @@ class XmlToXlsManager private constructor() {
      * @param sheet
      * @param rIndex
      */
-    private fun writeDataToXls(lists: List<CusRow>, sheet: Sheet?, rIndex: Int) {
+    private fun writeDataToXls(lists: List<CusRowBean>, sheet: Sheet?, rIndex: Int) {
         val itemCountList = ArrayList<Int>() //记录item的个数
         val cellStyle = mWorkbook.createCellStyle()
         cellStyle.wrapText = true
@@ -277,8 +276,8 @@ class XmlToXlsManager private constructor() {
      * @param createHelper
      * @return
      */
-    private fun parseStringXml(path: String, stringName: String): List<CusRow> {
-        val lists = ArrayList<CusRow>()
+    private fun parseStringXml(path: String, stringName: String): List<CusRowBean> {
+        val lists = ArrayList<CusRowBean>()
         try {
             val file = File(path, stringName)
             if (file.exists()) {
@@ -290,7 +289,7 @@ class XmlToXlsManager private constructor() {
                 while (it.hasNext()) {
                     val element = it.next()
                     if (element != null) {
-                        val cusRow = CusRow()
+                        val cusRow = CusRowBean()
                         cusRow.key = element.attributeValue("name")
                         cusRow.value = element.stringValue
                         if (isArrayXls && cusRow.value != null) {

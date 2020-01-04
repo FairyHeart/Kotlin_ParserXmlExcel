@@ -1,7 +1,7 @@
 package com.parser.xlsToXml
 
 /**
- * 测试类
+ * excel转string.xml测试类
  *
  * @author: Guazi.
  * @date  : 2019-12-30.

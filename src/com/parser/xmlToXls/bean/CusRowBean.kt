@@ -1,18 +1,16 @@
 package com.parser.xmlToXls.bean
 
 /**
- *
+ * strings.xml解析对象
  *
  * @author: Guazi.
  * @date  : 2020-01-04.
  */
-class CusRow {
+class CusRowBean {
 
     lateinit var key: String
 
     lateinit var value: String
-
-    var isArray: Boolean = false
 
     lateinit var items: MutableList<String>
 }

@@ -1,7 +1,7 @@
 package com.parser.xmlToXls.bean
 
 /**
- *
+ * 转换文件目录配置bean
  *
  * @author: Guazi.
  * @date  : 2020-01-04.
@@ -9,10 +9,17 @@ package com.parser.xmlToXls.bean
 class XlsWriteBean(val mBuilder: Builder) {
 
     object Builder {
+        /**
+         * 跟目录
+         */
         lateinit var rootDir: String
-
+        /**
+         * 需要输出的excel目录名字
+         */
         lateinit var xlsName: String
-
+        /**
+         * 转换values存放目录
+         */
         lateinit var dirName: String
 
         fun setRootDir(rootDir: String): Builder {
