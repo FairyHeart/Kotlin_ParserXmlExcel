@@ -3,16 +3,36 @@
   <component name="ChangeListManager">
     <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$readExcelFile$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$startParserDir$files$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$startParserDir$files$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$writeXmlFile$$inlined$forEach$lambda$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/bean/ParserBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/bean/XlsBean.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$readExcelFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$readExcelFile$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsRowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsRowBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Holder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/CusRow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/FloderBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/FloderBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/constant/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/constant/Constants.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/CusRow.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/CusRowBean.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/FloderBean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/FloderBean.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/XlsWriteBean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/XlsWriteBean.kt" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,88 +40,6 @@
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="95">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/bean/XlsWriteBean.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
-              <folding>
-                <element signature="e#29#609#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/constant/Constants.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/bean/CusRowBean.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/bean/FloderBean.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -112,118 +50,17 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>ReadExcelFile</find>
-      <find>`is`</find>
-      <find>跟</find>
-      <find>抹零</find>
-      <find>src</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>input</replace>
-      <replace>根</replace>
-      <replace>目录</replace>
-      <replace>dir</replace>
-    </replaceStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/ParserBean.kt" />
-        <option value="$PROJECT_DIR$/src/IOUtils.kt" />
-        <option value="$PROJECT_DIR$/src/Test.kt" />
-        <option value="$PROJECT_DIR$/src/ReadExcelFile.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/bean/XlsBean.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/utils/IOUtils.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/Test.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xlsToXml/bean/XlsRowBean.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/constant/LanguageCost.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/constant/Constants.kt" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/XlsWriteBean.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/FloderBean.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/CusRow.kt" />
-        <option value="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/CusRowBean.kt" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
-    <option name="y" value="-112" />
-    <option name="width" value="1936" />
-    <option name="height" value="1216" />
-  </component>
+  <component name="ProjectId" id="1WCXRmTLe35U3PsMBk5HC1JuJkL" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kotlin-XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="xlsToXml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlToXls" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlToXls" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kotlin-XlsParserFile" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kotlin-XlsParserFile" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="parser" type="462c0819:PsiDirectoryNode" />
-              <item name="xmlToXls" type="462c0819:PsiDirectoryNode" />
-              <item name="constant" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
@@ -233,7 +70,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xmlbeans-3.1.0.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -257,18 +94,6 @@
       <recent name="D:\studio_github\kotlin-XlsParserFile\src\com\parser\xlsToXml" />
       <recent name="D:\studio_github\android-XlsParserFile\src\com\parser" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Kotlin.com.parser.xmlToXls.TestKt">
     <configuration name="com.parser.xlsToXml.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
@@ -304,6 +129,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -321,320 +158,114 @@
       <workItem from="1577709989645" duration="481000" />
       <workItem from="1577757889586" duration="11899000" />
       <workItem from="1577787316123" duration="2294000" />
+      <workItem from="1578312135401" duration="553000" />
+      <workItem from="1578312869129" duration="93000" />
+      <workItem from="1578314371382" duration="437000" />
+      <workItem from="1578474678076" duration="397000" />
+      <workItem from="1578653799877" duration="12000" />
+      <workItem from="1578654067533" duration="128000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28229000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1912" y="-112" width="1936" height="1216" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18201284" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3655706" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.38394585" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.3646035" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32978722" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.327853" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16541755" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24354243" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.2592251" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32997987" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="12" visible="true" weight="0.3279678" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Maven" order="6" />
-      <window_info anchor="right" id="Capture Analysis" order="7" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
+    <option name="totallyTimeSpent" value="30429000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="709" y="448" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578655035515">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="709" y="448" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655035515" />
+    <state x="806" y="468" width="637" height="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1578655067215">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="806" y="468" width="637" height="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655067215" />
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate" timestamp="1578730210098">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state x="658" y="226" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655928937" />
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578730210098" />
+    <state width="626" height="582" key="DebuggerActiveHint" timestamp="1578730913059">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="626" height="582" key="DebuggerActiveHint/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578730913059" />
+    <state x="735" y="320" key="FileChooserDialogImpl" timestamp="1578655018742">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="735" y="320" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655018742" />
+    <state width="1868" height="246" key="GridCell.Tab.0.bottom" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
+    <state width="1868" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="246" key="GridCell.Tab.0.center" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
+    <state width="1868" height="246" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="246" key="GridCell.Tab.0.left" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942754" />
+    <state width="1868" height="246" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="246" key="GridCell.Tab.0.right" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
+    <state width="1868" height="246" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="246" key="GridCell.Tab.1.bottom" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
+    <state width="1868" height="246" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="246" key="GridCell.Tab.1.center" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
+    <state width="1868" height="246" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="246" key="GridCell.Tab.1.left" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
+    <state width="1868" height="246" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="246" key="GridCell.Tab.1.right" timestamp="1578731253105">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="1868" height="376" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
+    <state width="1868" height="246" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>98</line>
-          <properties />
-          <option name="timeStamp" value="8" />
+          <line>215</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>126</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>251</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>141</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>228</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateCodeFragment">
-      <expression>
-        <expression-string>getLangByFloder(getFloderName(file))</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>Constants.languageMap.values</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bean.floderPaths!![langIndex]</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bean.languages</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>createHelper.createRichTextString(bean.languages?.get(langIndex))</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>createHelper.createRichTextString(bean.languages?.get(langIndex)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>bean.languages?.get(langIndex)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ParserBean(cell[0].contents, cell[j].contents)</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>cell[j].contents</expression-string>
-        <language-id>kotlin</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Collections.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="366" column="19" selection-start-line="366" selection-start-column="19" selection-end-line="366" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jxl.jar!/jxl/Workbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-612">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/io/InputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/bean/ParserBean.kt" />
-    <entry file="file://$PROJECT_DIR$/src/com/parser/bean/XlsBean.kt" />
-    <entry file="jar://$PROJECT_DIR$/jxl.jar!/jxl/WorkbookSettings.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="613">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/jxl.jar!/common/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/utils/IOUtils.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/com/sun/org/apache/xerces/internal/dom/ElementImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="497" column="53" selection-start-line="497" selection-start-column="53" selection-end-line="497" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/com/sun/org/apache/xerces/internal/dom/CoreDocumentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="610" column="18" selection-start-line="610" selection-start-column="18" selection-end-line="610" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/ReadExcelFile.kt" />
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="12" lean-forward="true" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/kotlin-XlsParserFile.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/poi-ooxml-4.1.1.jar!/org/apache/poi/ooxml/POIXMLDocument.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xlsToXml/bean/XlsRowBean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="52" lean-forward="true" selection-start-line="9" selection-start-column="52" selection-end-line="9" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xlsToXml/bean/XlsBean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/poi-4.1.1.jar!/org/apache/poi/ss/usermodel/Workbook.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="45" column="10" selection-start-line="45" selection-start-column="10" selection-end-line="45" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/poi-4.1.1.jar!/org/apache/poi/ss/usermodel/CreationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="11" column="21" lean-forward="true" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/bean/XlsWriteBean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="11" lean-forward="true" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/constant/Constants.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/bean/FloderBean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="291" column="37" selection-start-line="291" selection-start-column="37" selection-end-line="291" selection-end-column="37" />
-          <folding>
-            <element signature="e#29#609#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/parser/xmlToXls/bean/CusRowBean.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

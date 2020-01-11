@@ -9,9 +9,9 @@ package com.parser.xlsToXml
 
 fun main() {
 
-    startParserFile()
+//    startParserFile()
 
-//    startParserDir()
+    startParserDir()
 }
 
 /**
@@ -20,7 +20,7 @@ fun main() {
 private fun startParserFile() {
 
     val dir = "d://parserExcel"
-    val fileName = "queue.xls"
+    val fileName = "display2.xls"
 
     val excelFile = XlsToXmlManager()
     excelFile.startParserFile(dir = dir, fileName = fileName)
