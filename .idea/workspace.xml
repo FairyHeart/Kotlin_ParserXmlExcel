@@ -3,34 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$readExcelFile$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$startParserDir$files$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$startParserDir$files$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile$writeXmlFile$$inlined$forEach$lambda$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/ReadExcelFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/bean/ParserBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/bean/XlsBean.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$readExcelFile$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$readExcelFile$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$startParserDir$files$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsRowBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/bean/XlsRowBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Holder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$Holder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$getFloderBean$files$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$getFloderBean$files$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$getFloderBean$files$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$getFloderBean$files$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$getFloderBean$files$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager$getFloderBean$files$3.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/CusRow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/FloderBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/FloderBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/bean/XlsWriteBean.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/constant/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/constant/Constants.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +65,9 @@
       <recent name="com.parser.xmlToXls.bean" />
       <recent name="com.parser.bean" />
       <recent name="com.parser.utils" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.parser.xmlToXls" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\studio_github\kotlin-XlsParserFile\src\com\parser\xlsToXml" />
@@ -165,6 +144,14 @@
       <workItem from="1578653799877" duration="12000" />
       <workItem from="1578654067533" duration="128000" />
     </task>
+    <task id="LOCAL-00001" summary="[refactor]重构">
+      <created>1578731286380</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578731286380</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -172,6 +159,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[refactor]重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="[refactor]重构" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="448" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578655035515">
@@ -182,87 +173,90 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="806" y="468" width="637" height="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655067215" />
-    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate" timestamp="1578730210098">
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate" timestamp="1578740959818">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state x="658" y="226" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655928937" />
-    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578730210098" />
-    <state width="626" height="582" key="DebuggerActiveHint" timestamp="1578730913059">
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578740959818" />
+    <state x="2280" y="25" key="CommitChangelistDialog2" timestamp="1578731285824">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
-    <state width="626" height="582" key="DebuggerActiveHint/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578730913059" />
+    <state x="2280" y="25" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731285824" />
+    <state width="925" height="582" key="DebuggerActiveHint" timestamp="1578739002855">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state width="925" height="582" key="DebuggerActiveHint/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578739002855" />
     <state x="735" y="320" key="FileChooserDialogImpl" timestamp="1578655018742">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="735" y="320" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655018742" />
-    <state width="1868" height="246" key="GridCell.Tab.0.bottom" timestamp="1578731253105">
+    <state width="1868" height="135" key="GridCell.Tab.0.bottom" timestamp="1578741496500">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="246" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
-    <state width="1868" height="246" key="GridCell.Tab.0.center" timestamp="1578731253105">
+    <state width="1868" height="135" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741496500" />
+    <state width="1868" height="135" key="GridCell.Tab.0.center" timestamp="1578741496500">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="246" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
-    <state width="1868" height="246" key="GridCell.Tab.0.left" timestamp="1578731253105">
+    <state width="1868" height="135" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741496500" />
+    <state width="1868" height="135" key="GridCell.Tab.0.left" timestamp="1578741496500">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942754" />
-    <state width="1868" height="246" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
-    <state width="1868" height="246" key="GridCell.Tab.0.right" timestamp="1578731253105">
+    <state width="1868" height="135" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741496500" />
+    <state width="1868" height="135" key="GridCell.Tab.0.right" timestamp="1578741496500">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="246" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
-    <state width="1868" height="246" key="GridCell.Tab.1.bottom" timestamp="1578731253105">
+    <state width="1868" height="135" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741496500" />
+    <state width="1868" height="387" key="GridCell.Tab.1.bottom" timestamp="1578741150468">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="246" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
-    <state width="1868" height="246" key="GridCell.Tab.1.center" timestamp="1578731253105">
+    <state width="1868" height="387" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741150468" />
+    <state width="1868" height="387" key="GridCell.Tab.1.center" timestamp="1578741150468">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="246" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
-    <state width="1868" height="246" key="GridCell.Tab.1.left" timestamp="1578731253105">
+    <state width="1868" height="387" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741150468" />
+    <state width="1868" height="387" key="GridCell.Tab.1.left" timestamp="1578741150468">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="246" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
-    <state width="1868" height="246" key="GridCell.Tab.1.right" timestamp="1578731253105">
+    <state width="1868" height="387" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741150468" />
+    <state width="1868" height="387" key="GridCell.Tab.1.right" timestamp="1578741150468">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="246" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578731253105" />
+    <state width="1868" height="387" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578741150468" />
+    <state x="2470" y="141" key="RollbackChangesDialog" timestamp="1578735990961">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state x="2470" y="141" key="RollbackChangesDialog/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578735990961" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>215</line>
-          <option name="timeStamp" value="30" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>126</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>251</line>
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>141</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>228</line>
+          <line>269</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>231</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>194</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>163</line>
+          <option name="timeStamp" value="47" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

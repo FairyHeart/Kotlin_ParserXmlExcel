@@ -52,6 +52,7 @@ class XmlToXlsManager private constructor() {
         var fos: FileOutputStream? = null
         if (file.exists()) {
             try {
+                writeNewFile(rootFile = file)
                 //第一步，创建一个webbook，对应一个Excel文件
                 if (xlsName.toLowerCase().endsWith("xlsx")) {
                     mWorkbook = XSSFWorkbook()
@@ -78,6 +79,59 @@ class XmlToXlsManager private constructor() {
         }
     }
 
+    private fun writeNewFile(rootFile: File) {
+        if (rootFile.exists()) {
+            val floderPaths = mutableListOf<String>()
+            val files = rootFile.walk()
+                .maxDepth(20)
+                .filter {
+                    it.isDirectory
+                }
+                .filter {
+                    it.absolutePath.contains("src\\main\\res")
+                }
+                .filter {
+                    it.name.contains("values", ignoreCase = true)
+                }
+            for (file in files) {
+                if (file.isDirectory && file.name.contains("values")) {
+                    val floderName = getLangByFloder(getFloderName(file), file)
+                    if (!floderName.isNullOrBlank()) {
+                        floderPaths.add(file.absolutePath)
+                    }
+                }
+            }
+
+            floderPaths.forEachIndexed { index, it ->
+                var newFile = File(it, "new_strings.xml")
+                if (!newFile.exists()) {
+                    newFile.createNewFile()
+                    newFile.appendText("<resources>")
+                } else {
+                    newFile.delete()
+                    newFile.appendText("<resources>")
+                }
+                val floderFile = File(it)
+                if (floderFile.exists()) {
+                    val stringFiles = floderFile.walk()
+                        .filter {
+                            it.name.contains("strings")
+                        }
+                    stringFiles.forEach {
+                        val txt = it.readText()
+                            .replace("<?xml version=\"1.0\" encoding=\"utf-8\"?>", "")
+                            .replace("<?xml version=\"1.0\" ?>", "")
+                            .replace("<resources><?xml version=\"1.0\" encoding=\"utf-8\"?>", "")
+                            .replace("<resources>", "")
+                            .replace("</resources>", "")
+                        newFile.appendText(txt)
+                    }
+                }
+                newFile.appendText("</resources>")
+            }
+        }
+    }
+
     /**
      * 开始写数据，主要配置第一行，还有写相关数据
      * @param rootFile
@@ -101,14 +155,18 @@ class XmlToXlsManager private constructor() {
                                 if (!valueName.contains("array") && !valueName.contains("strings")) {
                                     continue
                                 }
-                                if (valueName.contains("array")) {
-                                    this.readArrayStringData(valueNames, valueName, bean, createHelper)
-                                } else {
+//                                if (valueName.contains("array")) {
+//                                    this.readArrayStringData(valueNames, valueName, bean, createHelper)
+//                                } else {
+//                                    this.readStringData(valueNames, valueName, bean, createHelper)
+//                                }
+                                if (valueName == "new_strings.xml") {
                                     this.readStringData(valueNames, valueName, bean, createHelper)
                                 }
                             }
                         }
                     }
+
                 }
             }
         }
