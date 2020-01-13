@@ -11,12 +11,15 @@ import com.parser.xmlToXls.bean.XlsWriteBean
 fun main() {
 
     val rootDir = "D://parserExcel"
-    val dirName = "module.login"
+//    val dirName = "mobile.res"a
+    val dirName = "cashline"
     val xlsName = "display.xlsx"
+    val isMoreDire = true
     val xlsWriteBean = XlsWriteBean.Builder
         .setRootDir(rootDir)
         .setDirName(dirName)
         .setXlsName(xlsName)
+        .setMoreDir(isMoreDire)
         .builder()
     XmlToXlsManager.getInstance().startParserXls(xlsWriteBean.mBuilder)
 

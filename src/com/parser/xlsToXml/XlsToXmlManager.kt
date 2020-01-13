@@ -1,8 +1,9 @@
 package com.parser.xlsToXml
 
+import com.parser.utils.FileUtils
 import com.parser.utils.IOUtils
-import com.parser.xlsToXml.bean.XlsRowBean
 import com.parser.xlsToXml.bean.XlsBean
+import com.parser.xlsToXml.bean.XlsRowBean
 import jxl.Workbook
 import jxl.WorkbookSettings
 import org.w3c.dom.Document
@@ -26,6 +27,7 @@ import javax.xml.transform.stream.StreamResult
  */
 class XlsToXmlManager {
 
+    private var failMap = mutableMapOf<String, MutableList<String>>()
     /**
      * 开始转换文件
      *
@@ -34,7 +36,18 @@ class XlsToXmlManager {
      */
     fun startParserFile(dir: String, fileName: String) {
         val mapList = this.readExcelFile(dir = dir, fileName = fileName)
-        this.writeXmlFile(xlsBeans = mapList, dir = dir)
+        if (fileName.contains(".")) {
+            val putDir = fileName.substring(0, fileName.indexOf("."))
+            val file = File("$dir/$putDir")
+            if (file.exists()) {
+                file.delete()
+            } else {
+                file.createNewFile()
+            }
+            this.writeXmlFile(xlsBeans = mapList, dir = file.absolutePath)
+        } else {
+            this.writeXmlFile(xlsBeans = mapList, dir = dir)
+        }
     }
 
     /**
@@ -61,6 +74,7 @@ class XlsToXmlManager {
      * @param fileName 文件名
      */
     private fun readExcelFile(dir: String, fileName: String): MutableList<XlsBean> {
+        val failFile = FileUtils.createNewFile(dir, "未翻译资源.xml")
         var input: InputStream? = null
         var wb: Workbook? = null
         var woSettings: WorkbookSettings?
@@ -74,9 +88,11 @@ class XlsToXmlManager {
                 val sheets = wb!!.sheets //工作簿的数量
                 val sheetLen = sheets.size
                 for (j in 0 until sheetLen) {
+                    failMap.clear()
                     var xlsBean = XlsBean()
                     xlsBean.sheetName = sheets[j].name
-
+                    failFile.appendText("------------------- ${xlsBean.sheetName} --------------------\n")
+                    println(xlsBean.sheetName)
                     var colFirstMap: MutableMap<Int, String> = HashMap()
                     var colMap: MutableMap<Int, ArrayList<XlsRowBean>> = HashMap()
                     val rs = wb!!.getSheet(j)
@@ -90,27 +106,39 @@ class XlsToXmlManager {
                                 if (title.isNotBlank()) {
                                     colFirstMap[j] = title
                                 }
+                                failMap[title] = mutableListOf()
                             } else {
                                 if (j > 0) {
                                     if (!colMap.containsKey(j)) {
                                         colMap[j] = ArrayList()
                                     }
-                                    colMap[j]?.add(
-                                        XlsRowBean(
-                                            cell[0].contents,
-                                            cell[j].contents
-                                        )
-                                    )
+                                    if (cell.size > j) {
+                                        colMap[j]?.add(XlsRowBean(cell[0].contents, cell[j].contents))
+                                    } else {
+                                        colMap[j]?.add(XlsRowBean(cell[0].contents, ""))
+
+                                        val failStr = "<string name=\"${cell[0].contents}\"></string>"
+                                        failMap[colFirstMap[j]]?.add(failStr)
+                                    }
                                 }
                             }
                         }
                     }
+                    failMap.forEach { (key, values) ->
+                        if (!values.isNullOrEmpty()) {
+                            failFile.appendText("                   $key                  \n")
+                            values.forEach {
+                                failFile.appendText("$it\n")
+                            }
+                        }
+                    }
                     var contents: MutableMap<String, MutableList<XlsRowBean>> = mutableMapOf()
-                    colMap.forEach { key, values ->
+                    colMap.forEach { (key, values) ->
                         contents[colFirstMap[key] ?: "无标题"] = values
                     }
                     xlsBean.contents = contents
                     xlsBeans.add(xlsBean)
+                    failFile.appendText("\n")
                 }
             }
         } catch (e: Exception) {

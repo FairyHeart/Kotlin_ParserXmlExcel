@@ -22,6 +22,11 @@ class XlsWriteBean(val mBuilder: Builder) {
          */
         lateinit var dirName: String
 
+        /**
+         * 是否多目录读取
+         */
+        var isMoreDire = false
+
         fun setRootDir(rootDir: String): Builder {
             Builder.rootDir = rootDir
             return this
@@ -34,6 +39,11 @@ class XlsWriteBean(val mBuilder: Builder) {
 
         fun setDirName(dirName: String): Builder {
             Builder.dirName = dirName
+            return this
+        }
+
+        fun setMoreDir(isMoreDire: Boolean): Builder {
+            Builder.isMoreDire = isMoreDire
             return this
         }
 
