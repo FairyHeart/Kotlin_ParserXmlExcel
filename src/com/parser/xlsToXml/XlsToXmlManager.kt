@@ -217,13 +217,15 @@ class XlsToXmlManager {
     private fun saveXmlData(document: Document?, dir: String, packStr: String, fileName: String) {
         val tFactory = TransformerFactory.newInstance()
         try {
+            val name = packStr.toLowerCase().replace(".", "_").replace("-", "_")
+            val newFileName = "${name}_strings.xml"
+            val newDir = File("$dir/$packStr/$fileName")
+            if (!newDir.exists()) {
+                newDir.mkdir()
+            }
             val tFTransformer = tFactory.newTransformer()
             tFTransformer.setOutputProperty(OutputKeys.INDENT, "yes")
-            tFTransformer.transform(
-                DOMSource(document), StreamResult(
-                    "$dir/$packStr/$fileName.txt"
-                )
-            )
+            tFTransformer.transform(DOMSource(document), StreamResult("${newDir.path}/$newFileName"))
         } catch (e: java.lang.Exception) {
             e.printStackTrace()
         }
