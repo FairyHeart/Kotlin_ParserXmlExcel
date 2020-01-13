@@ -52,12 +52,12 @@ class XmlToXlsManager private constructor() {
         var fos: FileOutputStream? = null
         if (file.exists()) {
             try {
-                writeNewFile(rootFile = file)
+                this.writeNewFile(rootFile = file)
                 //第一步，创建一个webbook，对应一个Excel文件
-                if (xlsName.toLowerCase().endsWith("xlsx")) {
-                    mWorkbook = XSSFWorkbook()
+                mWorkbook = if (xlsName.toLowerCase().endsWith("xlsx")) {
+                    XSSFWorkbook()
                 } else {
-                    mWorkbook = HSSFWorkbook()
+                    HSSFWorkbook()
                 }
                 //如果已经有了，先删除
                 val filePath = rootDir + File.separator + dirName
@@ -81,9 +81,9 @@ class XmlToXlsManager private constructor() {
 
     private fun writeNewFile(rootFile: File) {
         if (rootFile.exists()) {
-            val floderPaths = mutableListOf<String>()
+            val strFiles = mutableListOf<String>()
             val files = rootFile.walk()
-                .maxDepth(20)
+                .maxDepth(300)
                 .filter {
                     it.isDirectory
                 }
@@ -95,14 +95,14 @@ class XmlToXlsManager private constructor() {
                 }
             for (file in files) {
                 if (file.isDirectory && file.name.contains("values")) {
-                    val floderName = getLangByFloder(getFloderName(file), file)
-                    if (!floderName.isNullOrBlank()) {
-                        floderPaths.add(file.absolutePath)
+                    val folderName = getLangByFloder(getFloderName(file), file)
+                    if (!folderName.isNullOrBlank()) {
+                        strFiles.add(file.absolutePath)
                     }
                 }
             }
 
-            floderPaths.forEachIndexed { index, it ->
+            strFiles.forEachIndexed { index, it ->
                 var newFile = File(it, "new_strings.xml")
                 if (!newFile.exists()) {
                     newFile.createNewFile()
@@ -111,9 +111,9 @@ class XmlToXlsManager private constructor() {
                     newFile.delete()
                     newFile.appendText("<resources>")
                 }
-                val floderFile = File(it)
-                if (floderFile.exists()) {
-                    val stringFiles = floderFile.walk()
+                val folderFile = File(it)
+                if (folderFile.exists()) {
+                    val stringFiles = folderFile.walk()
                         .filter {
                             it.name.contains("strings")
                         }
@@ -145,12 +145,12 @@ class XmlToXlsManager private constructor() {
             val bean = getFloderBean(rootFile) //获取到所有路径,并保存到 floderBean 中
             if (bean != null) {
                 mWorkbook.createSheet("sheetName")//第二步，在webbook中添加一个sheet,对应Excel文件中的sheet
-                val floderPaths = bean.floderPaths
-                if (!floderPaths.isNullOrEmpty()) {
-                    for (floderPath in floderPaths) { //浏览文件夹
-                        val floderFile = File(floderPath)
-                        if (floderFile.exists()) {
-                            val valueNames = getFloderFileNameList(floderPath)
+                val folderPaths = bean.floderPaths
+                if (!folderPaths.isNullOrEmpty()) {
+                    for (folderPath in folderPaths) { //浏览文件夹
+                        val folderFile = File(folderPath)
+                        if (folderFile.exists()) {
+                            val valueNames = getFloderFileNameList(folderPath)
                             for (valueName in valueNames) { //浏览各个文件夹中的文件
                                 if (!valueName.contains("array") && !valueName.contains("strings")) {
                                     continue
@@ -161,7 +161,7 @@ class XmlToXlsManager private constructor() {
 //                                    this.readStringData(valueNames, valueName, bean, createHelper)
 //                                }
                                 if (valueName == "new_strings.xml") {
-                                    this.readStringData(valueNames, valueName, bean, createHelper)
+                                    this.readStringData(valueName, bean, createHelper)
                                 }
                             }
                         }
@@ -172,12 +172,7 @@ class XmlToXlsManager private constructor() {
         }
     }
 
-    private fun readStringData(
-        valueNames: List<String>,
-        valueName: String,
-        bean: FloderBean,
-        createHelper: CreationHelper
-    ) {
+    private fun readStringData(valueName: String, bean: FloderBean, createHelper: CreationHelper) {
         var sheet: Sheet? = null
         var row: Row? = null
         var startColume = 1
@@ -197,7 +192,7 @@ class XmlToXlsManager private constructor() {
                 createHelper.createRichTextString(bean.languages?.get(langIndex))
             )
             val lists = parseStringXml(bean.floderPaths!![langIndex], valueName)
-            if (lists != null && lists.isNotEmpty()) {
+            if (lists.isNotEmpty()) {
                 writeDataToXls(lists, sheet, langIndex)
             }
         }
@@ -239,6 +234,7 @@ class XmlToXlsManager private constructor() {
         }
     }
 
+
     /**
      * 获取路径下数据
      * @param rootFile
@@ -263,9 +259,9 @@ class XmlToXlsManager private constructor() {
                 }
             for (file in files) {
                 if (file.isDirectory && file.name.contains("values")) {
-                    val floderName = getLangByFloder(getFloderName(file), file)
-                    if (!floderName.isNullOrBlank()) {
-                        bean.languages!!.add(floderName)
+                    val folderName = getLangByFloder(getFloderName(file), file)
+                    if (!folderName.isNullOrBlank()) {
+                        bean.languages!!.add(folderName)
                         bean.floderPaths!!.add(file.absolutePath)
                     }
                 }
@@ -319,6 +315,8 @@ class XmlToXlsManager private constructor() {
                     cell?.cellStyle = cellStyle
                     sheet?.setColumnWidth(index, 35 * 256)
                     cell?.setCellValue(cusRow.value)
+                } else {
+                    println("${cusRow.key},${cusRow.value}")
                 }
             }
 
@@ -355,29 +353,27 @@ class XmlToXlsManager private constructor() {
                 index = cIndex + 1 + num
             }
             val valueRow = sheet?.createRow(index)
-            if (cusRow.key != null) {
-                valueRow?.createCell(0)?.setCellValue(cusRow.key)
-                if (cusRow.items != null && cusRow.items.isNotEmpty()) {
-                    val count = cusRow.items.size - 1
-                    itemCountList.add(count)
-                    index += 1
-                    println("count: $count ")
-                    for (cRow in 0 until count) {
-                        val item = cusRow.items[cRow]
-                        val itemIndex = index + cRow
-                        var itemRow: Row? = null
-                        itemRow = sheet?.getRow(itemIndex)
-                        if (itemRow == null) {
-                            itemRow = sheet?.createRow(itemIndex)
+            valueRow?.createCell(0)?.setCellValue(cusRow.key)
+            if (cusRow.items != null && cusRow.items.isNotEmpty()) {
+                val count = cusRow.items.size - 1
+                itemCountList.add(count)
+                index += 1
+                println("count: $count ")
+                for (cRow in 0 until count) {
+                    val item = cusRow.items[cRow]
+                    val itemIndex = index + cRow
+                    var itemRow: Row? = null
+                    itemRow = sheet?.getRow(itemIndex)
+                    if (itemRow == null) {
+                        itemRow = sheet?.createRow(itemIndex)
 
-                        }
-                        itemRow?.createCell(1)?.setCellValue("<item>")
-                        val cell = itemRow?.createCell(rIndex + 2) //从第二列开始
-                        cell?.cellStyle = cellStyle
-                        sheet?.setColumnWidth(cIndex + 1, 35 * 256)
-                        cell?.setCellValue(item)
-                        println("item: " + itemRow?.getCell(0) + " " + itemRow?.getCell(1))
                     }
+                    itemRow?.createCell(1)?.setCellValue("<item>")
+                    val cell = itemRow?.createCell(rIndex + 2) //从第二列开始
+                    cell?.cellStyle = cellStyle
+                    sheet?.setColumnWidth(cIndex + 1, 35 * 256)
+                    cell?.setCellValue(item)
+                    println("item: " + itemRow?.getCell(0) + " " + itemRow?.getCell(1))
                 }
             }
         }
@@ -402,12 +398,10 @@ class XmlToXlsManager private constructor() {
                 val it: Iterator<Element> = root.elementIterator() as Iterator<Element>
                 while (it.hasNext()) {
                     val element = it.next()
-                    if (element != null) {
-                        val cusRow = CusRowBean()
-                        cusRow.key = element.attributeValue("name")
-                        cusRow.value = element.stringValue
-                        lists.add(cusRow)
-                    }
+                    val cusRow = CusRowBean()
+                    cusRow.key = element.attributeValue("name")
+                    cusRow.value = element.stringValue
+                    lists.add(cusRow)
                 }
             }
         } catch (e: Exception) {
@@ -434,23 +428,17 @@ class XmlToXlsManager private constructor() {
                 val it: Iterator<Element> = root.elementIterator() as Iterator<Element>
                 while (it.hasNext()) {
                     val element = it.next()
-                    if (element != null) {
-                        val cusRow = CusRowBean()
-                        cusRow.key = element.attributeValue("name")
-                        cusRow.value = element.stringValue
-                        if (cusRow.value != null) {
-                            val items = cusRow.value.split("\n")
-                            if (items != null) {
-                                cusRow.items = ArrayList()
-                                for (item in items) {
-                                    if (item != null && item.length > 1) {
-                                        cusRow.items.add(item)
-                                    }
-                                }
-                            }
+                    val cusRow = CusRowBean()
+                    cusRow.key = element.attributeValue("name")
+                    cusRow.value = element.stringValue
+                    val items = cusRow.value.split("\n")
+                    cusRow.items = ArrayList()
+                    for (item in items) {
+                        if (item.length > 1) {
+                            cusRow.items.add(item)
                         }
-                        lists.add(cusRow)
                     }
+                    lists.add(cusRow)
                 }
             }
         } catch (e: Exception) {
@@ -468,7 +456,7 @@ class XmlToXlsManager private constructor() {
         val path = file.absolutePath
         //window 路径转换
         val paths = path.replace("\\", "/").split("/".toRegex()).dropLastWhile { it.isEmpty() }.toTypedArray()
-        return if (paths != null && paths.isNotEmpty()) {
+        return if (paths.isNotEmpty()) {
             paths[paths.size - 1]
         } else null
     }

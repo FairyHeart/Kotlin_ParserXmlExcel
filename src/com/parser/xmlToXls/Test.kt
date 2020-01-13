@@ -11,7 +11,7 @@ import com.parser.xmlToXls.bean.XlsWriteBean
 fun main() {
 
     val rootDir = "D://parserExcel"
-    val dirName = "mobilebase"
+    val dirName = "module.login"
     val xlsName = "display.xlsx"
     val xlsWriteBean = XlsWriteBean.Builder
         .setRootDir(rootDir)
