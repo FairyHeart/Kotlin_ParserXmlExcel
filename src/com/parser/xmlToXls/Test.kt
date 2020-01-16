@@ -9,7 +9,7 @@ import com.parser.xmlToXls.bean.XlsWriteBean
  * @date  : 2020-01-04.
  */
 fun main() {
-
+//    val rootDir = "D://studio_dfire3"
     val rootDir = "D://parserExcel"
 //    val dirName = "mobile.res"a
     val dirName = "cashline"

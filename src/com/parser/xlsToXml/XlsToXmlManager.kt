@@ -115,10 +115,12 @@ class XlsToXmlManager {
                                     if (cell.size > j) {
                                         colMap[j]?.add(XlsRowBean(cell[0].contents, cell[j].contents))
                                     } else {
-                                        colMap[j]?.add(XlsRowBean(cell[0].contents, ""))
+                                        if (colFirstMap[j]?.contains("novotill", ignoreCase = true) == false) {
+                                            colMap[j]?.add(XlsRowBean(cell[0].contents, ""))
 
-                                        val failStr = "<string name=\"${cell[0].contents}\"></string>"
-                                        failMap[colFirstMap[j]]?.add(failStr)
+                                            val failStr = "<string name=\"${cell[0].contents}\"></string>"
+                                            failMap[colFirstMap[j]]?.add(failStr)
+                                        }
                                     }
                                 }
                             }
@@ -221,7 +223,7 @@ class XlsToXmlManager {
             val newFileName = "${name}_strings.xml"
             val newDir = File("$dir/$packStr/$fileName")
             if (!newDir.exists()) {
-                newDir.mkdir()
+                newDir.mkdirs()
             }
             val tFTransformer = tFactory.newTransformer()
             tFTransformer.setOutputProperty(OutputKeys.INDENT, "yes")
