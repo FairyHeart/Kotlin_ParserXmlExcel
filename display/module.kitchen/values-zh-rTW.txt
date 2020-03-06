@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="md_kitchen_network">網路情況</string>
+<string name="md_kitchen_network_ok">較好</string>
+<string name="md_kitchen_network_normal">一般</string>
+<string name="md_kitchen_network_bad">較差</string>
+<string name="md_kitchen_network_very_bad">很差</string>
+</resources>

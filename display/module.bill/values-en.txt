@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">module.bill</string>
+<string name="bill_confirm_duizhang">Confirm</string>
+<string name="fire_bill">Order</string>
+<string name="md_bill_over_fail">Current business day is settled, unable to handover. You may need to revoke Daily Settlement, then to operate handover.</string>
+<string name="md_bill_dateend_fail">Failed to operate Daily Settlement</string>
+<string name="md_bill_un_dateend_fail">Failed to revoke</string>
+<string name="md_bill_pos_tip">Please refund on POS device</string>
+</resources>

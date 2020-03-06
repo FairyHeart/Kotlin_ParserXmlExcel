@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="libpay_self_card">自发行卡</string>
+<string name="libpay_order_null">当前订单为空</string>
+</resources>

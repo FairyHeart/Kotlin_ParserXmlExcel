@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="md_msgcenter_back_fee">退款金额: </string>
+<string name="md_msgcenter_unsupport">副收银暂不支持此功能处理，请到主收银进行处理</string>
+<string name="md_msgcenter_addfood_fail">开单加菜处理成功，消息状态更新失败</string>
+<string name="md_msgcenter_online_order">在线预约单</string>
+<string name="md_msgcenter_customer">顾客</string>
+<string name="md_msgcenter_koubei_manager">口碑掌柜</string>
+<string name="md_msgcenter_koubei">口碑</string>
+</resources>

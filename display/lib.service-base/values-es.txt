@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="share_cash">Deposito</string>
+<string name="share_net_pay">Pago en línea</string>
+<string name="share_has_removed">-Eliminado-</string>
+<string name="share_customer">Cliente</string>
+<string name="share_uname_not_blank">¡El campo nombre de usuario no puede estar vacío!</string>
+<string name="share_upsw_not_blank">¡El campo contraseña no puede estar vacío!</string>
+<string name="share_login_failed">Error de inicio de sesión, el usuario no existe o la contraseña es incorrecta.</string>
+<string name="share_card_num_not_blank">¡El campo número de tarjeta no puede estar vacío!</string>
+<string name="share_invalid_card">¡Tarjeta no válida!</string>
+<string name="custom_unknow">No clasificado</string>
+<string name="all">Todos</string>
+<string name="takeout_eleme">Entrega Eleme</string>
+<string name="takeout_shopsell">Para llevar</string>
+<string name="multimenu_retail_order">Pedido al por menor</string>
+</resources>

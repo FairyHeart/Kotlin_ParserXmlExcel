@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="liborder_addition_tip">订单内商品加料与收银商品不一致，加料已按口味处理，请尽快更新收银数据</string>
+<string name="liborder_make_tip">订单内商品做法与收银商品不一致，做法已按口味处理，请尽快更新收银数据</string>
+<string name="liborder_spec_tip">订单内商品规格与收银商品不一致，规格已按口味处理，请尽快更新收银数据</string>
+<string name="liborder_no_waiting_order">没有待审核的订单</string>
+<string name="liborder_cancel_tip">No:%s已经撤单，已重新开新单</string>
+<string name="liborder_merge_tip">No:%s已经并单，已重新开新单</string>
+<string name="liborder_end_tip">No:%s已经结账，已重新开新单</string>
+<string name="liborder_update_tip">本地桌位和掌柜数据不一致，请更新收银数据</string>
+<string name="liborder_savepay_error_tip">入账失败,订单不存在</string>
+<string name="liborder_pwd_error">同步密码错误</string>
+</resources>

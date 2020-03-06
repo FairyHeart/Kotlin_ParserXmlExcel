@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">module.rfid</string>
+<string name="rfid_device_open_success">打开设备成功</string>
+<string name="rfid_device_open_failed">打开设备失败</string>
+<string name="rfid_device_close_success">关闭设备成功</string>
+<string name="md_rfid_read">读取到%1$s个卡。</string>
+<string name="md_rfid_open_module">RFID模块已关闭，请先打开此模块！</string>
+<string name="md_rfid_device_null">Rfid Device为空，请重新连接设备！</string>
+<string name="md_rfid_reader_no_open">Rfid Reader没有打开，请重新连接设备！</string>
+<string name="md_rfid_no_login">Rfid设备没有登录，请重新连接设备！</string>
+<string name="md_rfid_no_find_usb">未发现火盘usb，请检查设备是否已经连接</string>
+<string name="md_rfid_no_usb_permis">未获得火盘usb权限，请重新插拔usb授权</string>
+<string name="md_rfid_check_open">，请检测设备是否开启</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="md_msgcenter_back_fee">Refund Amount: </string>
+<string name="md_msgcenter_unsupport">Please operate on Main POS</string>
+<string name="md_msgcenter_addfood_fail">Dishes added, but failed to update notifications</string>
+<string name="md_msgcenter_online_order">Online Bookings Orders</string>
+<string name="md_msgcenter_customer">Customer</string>
+<string name="md_msgcenter_koubei_manager">Novo Manager</string>
+<string name="md_msgcenter_koubei">KB</string>
+</resources>

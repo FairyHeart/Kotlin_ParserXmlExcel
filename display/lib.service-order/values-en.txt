@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="liborder_addition_tip">Add-on does not match the Item on POS; processed as Preference. Please update POS data.</string>
+<string name="liborder_make_tip">Way of making does not match the Item on POS; processed as Preference. Please update POS data.</string>
+<string name="liborder_spec_tip">Spec/size does not match the Item on POS; processed as Preference. Please update POS data.</string>
+<string name="liborder_no_waiting_order">No Order awaiting review</string>
+<string name="liborder_cancel_tip">No:%s order canceled, please open new order</string>
+<string name="liborder_merge_tip">No:%s order combined, please open new order</string>
+<string name="liborder_end_tip">No:%s order settled，please open new order</string>
+<string name="liborder_update_tip">Table data does not match with that on Novo Manager, please update POS</string>
+<string name="liborder_savepay_error_tip">Failed to register the payment, order not found</string>
+<string name="liborder_pwd_error">Wrong Sync Password</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="md_base_input_fee">请输入消费金额</string>
+<string name="md_base_input_cutfee">请输入满减的金额</string>
+<string name="md_base_fee_zero">消费金额必须大于0</string>
+<string name="md_base_cutfee_zero">满减金额必须大于0</string>
+<string name="md_base_fee_tip">消费金额不能小于满减金额</string>
+<string name="md_base_cut_agian">该(%s)满减已存在，无需重复添加</string>
+<string name="md_base_wating_fail">审核未通过</string>
+<string name="md_base_wating_timeout">超时未审核</string>
+<string name="md_base_cancel_pre">取消预订</string>
+<string name="md_base_waiting_pass">已审核</string>
+<string name="md_base_waiting_confirm">已完成</string>
+<string name="md_base_waiting_endpay">已结账</string>
+</resources>

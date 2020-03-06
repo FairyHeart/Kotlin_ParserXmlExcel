@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="setting_detect_local_ip">Local IP: %s</string>
+<string name="setting_detect_desk_ip">POS IP: %s</string>
+<string name="setting_detect_app_version">App version: %s</string>
+<string name="setting_detect_system_info">System info: %s</string>
+<string name="setting_detect_system_time">System time: %s</string>
+<string name="setting_detect_resolution">Resolution: %s</string>
+<string name="setting_detect_proxy_server">Proxy server: %s</string>
+<string name="md_setting_update">Update</string>
+<string name="md_setting_dateend_fail">Failed to operate Daily Settlement</string>
+</resources>

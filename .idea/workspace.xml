@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/search/CompareBean.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/search/CompareManager.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/search/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/utils/FileUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/utils/FileUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin File" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -70,6 +70,7 @@
       <recent name="com.parser.utils" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="com.search" />
       <recent name="com.parser.xmlToXls" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -77,7 +78,7 @@
       <recent name="D:\studio_github\android-XlsParserFile\src\com\parser" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.parser.xlsToXml.TestKt">
+  <component name="RunManager" selected="Kotlin.com.search.TestKt">
     <configuration name="com.parser.xlsToXml.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="android-XlsParserFile" />
       <option name="VM_PARAMETERS" />
@@ -104,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.search.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="android-XlsParserFile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.search.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.search.TestKt" />
         <item itemvalue="Kotlin.com.parser.xlsToXml.TestKt" />
         <item itemvalue="Kotlin.com.parser.xmlToXls.TestKt" />
       </list>
@@ -175,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578897041860</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[refactor]重构">
+      <created>1579165681474</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1579165681474</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -197,71 +219,79 @@
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="806" y="468" width="637" height="304" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655067215" />
-    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate" timestamp="1578904555655">
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate" timestamp="1583479365182">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state x="658" y="226" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655928937" />
-    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578904555655" />
-    <state x="2280" y="25" key="CommitChangelistDialog2" timestamp="1578897041651">
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479365182" />
+    <state x="2280" y="25" key="CommitChangelistDialog2" timestamp="1579165681062">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
-    <state x="2280" y="25" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578897041651" />
-    <state width="925" height="582" key="DebuggerActiveHint" timestamp="1578894682471">
+    <state x="2280" y="25" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1579165681062" />
+    <state width="925" height="582" key="DebuggerActiveHint" timestamp="1583479287510">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
-    <state width="925" height="582" key="DebuggerActiveHint/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578894682471" />
+    <state width="925" height="582" key="DebuggerActiveHint/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479287510" />
     <state x="735" y="320" key="FileChooserDialogImpl" timestamp="1578655018742">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="735" y="320" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655018742" />
-    <state width="1868" height="390" key="GridCell.Tab.0.bottom" timestamp="1578906402085">
+    <state width="1868" height="323" key="GridCell.Tab.0.bottom" timestamp="1583479391706">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="390" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402085" />
-    <state width="1868" height="390" key="GridCell.Tab.0.center" timestamp="1578906402085">
+    <state width="1868" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
+    <state width="1868" height="323" key="GridCell.Tab.0.center" timestamp="1583479391706">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="390" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402085" />
-    <state width="1868" height="390" key="GridCell.Tab.0.left" timestamp="1578906402085">
+    <state width="1868" height="323" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
+    <state width="1868" height="323" key="GridCell.Tab.0.left" timestamp="1583479391706">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942754" />
-    <state width="1868" height="390" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402085" />
-    <state width="1868" height="390" key="GridCell.Tab.0.right" timestamp="1578906402085">
+    <state width="1868" height="323" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
+    <state width="1868" height="323" key="GridCell.Tab.0.right" timestamp="1583479391706">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="390" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402085" />
-    <state width="1868" height="390" key="GridCell.Tab.1.bottom" timestamp="1578906402086">
+    <state width="1868" height="323" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
+    <state width="1868" height="323" key="GridCell.Tab.1.bottom" timestamp="1583479391707">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="390" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402086" />
-    <state width="1868" height="390" key="GridCell.Tab.1.center" timestamp="1578906402085">
+    <state width="1868" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
+    <state width="1868" height="323" key="GridCell.Tab.1.center" timestamp="1583479391707">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="390" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402085" />
-    <state width="1868" height="390" key="GridCell.Tab.1.left" timestamp="1578906402085">
+    <state width="1868" height="323" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
+    <state width="1868" height="323" key="GridCell.Tab.1.left" timestamp="1583479391707">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="390" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402085" />
-    <state width="1868" height="390" key="GridCell.Tab.1.right" timestamp="1578906402086">
+    <state width="1868" height="323" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
+    <state width="1868" height="323" key="GridCell.Tab.1.right" timestamp="1583479391707">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="390" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578906402086" />
+    <state width="1868" height="323" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
     <state x="2470" y="141" key="RollbackChangesDialog" timestamp="1578735990961">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state x="2470" y="141" key="RollbackChangesDialog/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578735990961" />
+    <state x="365" y="222" width="1571" height="810" maximized="true" key="dock-window-1" timestamp="1583397256255">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="365" y="222" width="1571" height="810" maximized="true" key="dock-window-1/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583397256255" />
     <state x="2424" y="5" width="912" height="981" key="find.popup" timestamp="1578899865178">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state x="2424" y="5" width="912" height="981" key="find.popup/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578899865178" />
+    <state x="2442" y="61" width="874" height="1034" key="search.everywhere.popup" timestamp="1583474656991">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state x="2442" y="61" width="874" height="1034" key="search.everywhere.popup/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583474656991" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -277,9 +307,14 @@
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt</url>
-          <line>55</line>
-          <option name="timeStamp" value="74" />
+          <url>file://$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt</url>
+          <line>91</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt</url>
+          <line>146</line>
+          <option name="timeStamp" value="76" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

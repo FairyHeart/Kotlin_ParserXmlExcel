@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="retail_menu_name"/>
+<string name="retail_menu"/>
+<string name="retail_cash_unit"/>
+<string name="retail_menu_price"/>
+<string name="retail_weight_menu"/>
+<string name="retail_gift_menu"/>
+<string name="retail_barcode"/>
+<string name="retail_has_pay"/>
+<string name="retail_sku_property"/>
+<string name="retail_order_is_empty"/>
+<string name="retail_order_is_empty_cancel"/>
+<string name="retail_search_menu_empty_tip1"/>
+<string name="retail_search_menu_empty_tip2"/>
+<string name="retail_order_has_pay_info"/>
+<string name="retail_greaterthan_100000"/>
+<string name="retail_member_greaterthan_100000"/>
+<string name="retail_cashbox_not_open"/>
+<string name="retail_cashbox_is_open"/>
+<string name="retail_instance_deleted"/>
+<string name="retail_instance_num_invalid"/>
+<string name="retail_instance_num_over_range"/>
+</resources>

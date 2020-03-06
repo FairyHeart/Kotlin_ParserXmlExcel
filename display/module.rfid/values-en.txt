@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">module.rfid</string>
+<string name="rfid_device_open_success">Opening device success</string>
+<string name="rfid_device_open_failed">Opening device failed</string>
+<string name="rfid_device_close_success">Closing device success</string>
+<string name="md_rfid_read">%1$s card(s) read</string>
+<string name="md_rfid_open_module">RFID function disabled, please enable!</string>
+<string name="md_rfid_device_null">RFID Device is empty, please connect to device.</string>
+<string name="md_rfid_reader_no_open">RDID Reader not enabled, please reconnect.</string>
+<string name="md_rfid_no_login">RFID device not logged in, please reconnect.</string>
+<string name="md_rfid_no_find_usb">RFUD USB not found, please check the connection.</string>
+<string name="md_rfid_no_usb_permis">RFUD USB permission not obtained, please retry</string>
+<string name="md_rfid_check_open">, please check whether the device is enabled</string>
+</resources>

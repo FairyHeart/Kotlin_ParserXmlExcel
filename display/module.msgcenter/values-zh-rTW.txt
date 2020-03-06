@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="md_msgcenter_back_fee">退款金額: </string>
+<string name="md_msgcenter_unsupport">副收銀暫不支持此功能處理，請到主收銀進行處理</string>
+<string name="md_msgcenter_addfood_fail">開單加菜處理成功，消息狀態更新失敗</string>
+<string name="md_msgcenter_online_order">線上預約單</string>
+<string name="md_msgcenter_customer">顧客</string>
+<string name="md_msgcenter_koubei_manager">口碑掌櫃</string>
+<string name="md_msgcenter_koubei">口碑</string>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="libservlet_session_fail">Session verification failed</string>
+<string name="libservlet_sign_loss">Signature lost</string>
+<string name="libservlet_sign_fail">Wrong Signature</string>
+<string name="libservlet_appkey_loss">Lacking AppKey</string>
+<string name="libservlet_unused_rquest">Invalid Request</string>
+<string name="libservlet_auto_sender_fail">Failed to auto-process, please process manually.</string>
+</resources>

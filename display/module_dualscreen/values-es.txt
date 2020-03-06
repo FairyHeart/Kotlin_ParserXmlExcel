@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="dual_title">Ciente</string>
+<string name="dual_menu_set">Mostrar Configuración de Display de Cliente</string>
+<string name="dual_menu_check">Detectar Display de Cliente</string>
+<string name="dual_set_screen_mode">Modo de Display del cliente</string>
+<string name="dual_set_screen_mode_horizontal">Horizontal</string>
+<string name="dual_set_screen_mode_vertical">Vertical</string>
+<string name="dual_set_screen_ad_duration"/>
+</resources>
