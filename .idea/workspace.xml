@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/search/CompareBean.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/search/CompareManager.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/search/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/null/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/META-INF/android-XlsParserFile.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xlsToXml/Test.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +56,7 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -78,7 +73,20 @@
       <recent name="D:\studio_github\android-XlsParserFile\src\com\parser" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.search.TestKt">
+  <component name="RunManager" selected="Kotlin.com.null.TestKt">
+    <configuration name="com.null.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="android-XlsParserFile" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.null.TestKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.parser.xlsToXml.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="android-XlsParserFile" />
       <option name="VM_PARAMETERS" />
@@ -120,6 +128,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.null.TestKt" />
         <item itemvalue="Kotlin.com.search.TestKt" />
         <item itemvalue="Kotlin.com.parser.xlsToXml.TestKt" />
         <item itemvalue="Kotlin.com.parser.xmlToXls.TestKt" />
@@ -197,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579165681474</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[refactor]资源比较">
+      <created>1583481377438</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583481377438</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -208,7 +224,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[refactor]重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="[refactor]重构" />
+    <MESSAGE value="[refactor]资源比较" />
+    <option name="LAST_COMMIT_MESSAGE" value="[refactor]资源比较" />
   </component>
   <component name="WindowStateProjectService">
     <state x="709" y="448" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1578655035515">
@@ -224,62 +241,67 @@
     </state>
     <state x="658" y="226" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655928937" />
     <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479365182" />
-    <state x="2280" y="25" key="CommitChangelistDialog2" timestamp="1579165681062">
+    <state x="2280" y="25" key="CommitChangelistDialog2" timestamp="1583481376997">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
-    <state x="2280" y="25" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1579165681062" />
+    <state x="2280" y="25" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583481376997" />
     <state width="925" height="582" key="DebuggerActiveHint" timestamp="1583479287510">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="925" height="582" key="DebuggerActiveHint/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479287510" />
-    <state x="735" y="320" key="FileChooserDialogImpl" timestamp="1578655018742">
-      <screen x="0" y="0" width="1920" height="1160" />
+    <state x="2655" y="227" key="FileChooserDialogImpl" timestamp="1583729584773">
+      <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state x="735" y="320" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655018742" />
-    <state width="1868" height="323" key="GridCell.Tab.0.bottom" timestamp="1583479391706">
+    <state x="2655" y="227" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583729584773" />
+    <state width="1868" height="323" key="GridCell.Tab.0.bottom" timestamp="1583748147379">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
-    <state width="1868" height="323" key="GridCell.Tab.0.center" timestamp="1583479391706">
+    <state width="1868" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
+    <state width="1868" height="323" key="GridCell.Tab.0.center" timestamp="1583748147379">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="323" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
-    <state width="1868" height="323" key="GridCell.Tab.0.left" timestamp="1583479391706">
+    <state width="1868" height="323" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
+    <state width="1868" height="323" key="GridCell.Tab.0.left" timestamp="1583748147378">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942754" />
-    <state width="1868" height="323" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
-    <state width="1868" height="323" key="GridCell.Tab.0.right" timestamp="1583479391706">
+    <state width="1868" height="323" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147378" />
+    <state width="1868" height="323" key="GridCell.Tab.0.right" timestamp="1583748147379">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="323" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391706" />
-    <state width="1868" height="323" key="GridCell.Tab.1.bottom" timestamp="1583479391707">
+    <state width="1868" height="323" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
+    <state width="1868" height="323" key="GridCell.Tab.1.bottom" timestamp="1583748147379">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
-    <state width="1868" height="323" key="GridCell.Tab.1.center" timestamp="1583479391707">
+    <state width="1868" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
+    <state width="1868" height="323" key="GridCell.Tab.1.center" timestamp="1583748147379">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="323" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
-    <state width="1868" height="323" key="GridCell.Tab.1.left" timestamp="1583479391707">
+    <state width="1868" height="323" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
+    <state width="1868" height="323" key="GridCell.Tab.1.left" timestamp="1583748147379">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="323" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
-    <state width="1868" height="323" key="GridCell.Tab.1.right" timestamp="1583479391707">
+    <state width="1868" height="323" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
+    <state width="1868" height="323" key="GridCell.Tab.1.right" timestamp="1583748147379">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state width="1868" height="376" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1578655942755" />
-    <state width="1868" height="323" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479391707" />
+    <state width="1868" height="323" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
     <state x="2470" y="141" key="RollbackChangesDialog" timestamp="1578735990961">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
     <state x="2470" y="141" key="RollbackChangesDialog/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1578735990961" />
+    <state x="2287" y="39" key="SettingsEditor" timestamp="1583729603740">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
+    <state x="2287" y="39" key="SettingsEditor/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583729603740" />
     <state x="365" y="222" width="1571" height="810" maximized="true" key="dock-window-1" timestamp="1583397256255">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
