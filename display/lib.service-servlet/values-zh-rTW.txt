@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<string name="libservlet_session_fail">Session驗證失敗</string>
-<string name="libservlet_sign_loss">簽名缺失</string>
-<string name="libservlet_sign_fail">簽名錯誤</string>
-<string name="libservlet_appkey_loss">AppKey缺失</string>
-<string name="libservlet_unused_rquest">無效的請求</string>
-<string name="libservlet_auto_sender_fail">自動處理配送異常訂單失敗，請手動處理。</string>
-</resources>

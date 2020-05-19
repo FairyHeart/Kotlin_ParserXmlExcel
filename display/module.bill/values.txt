@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<string name="app_name">module.bill</string>
-<string name="bill_confirm_duizhang">确认清帐</string>
-<string name="fire_bill">客单</string>
-<string name="md_bill_over_fail">当前营业日已日结，不能再交接班，如有需求，请去主收银先进行“反日结”操作</string>
-<string name="md_bill_dateend_fail">日结失败</string>
-<string name="md_bill_un_dateend_fail">反日结失败</string>
-<string name="md_bill_pos_tip">存在POS机付款记录需要到POS机上完成该笔退款，请在收银-结账页进行</string>
-</resources>

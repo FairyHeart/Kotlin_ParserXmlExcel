@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<string name="md_kitchen_network">Network Status</string>
-<string name="md_kitchen_network_ok">Good</string>
-<string name="md_kitchen_network_normal">Ok</string>
-<string name="md_kitchen_network_bad">Bad</string>
-<string name="md_kitchen_network_very_bad">Terrible</string>
-</resources>

@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-<string name="set_data_sync_note">将二维火收银上的设置数据同步到这台设备。副收银的设置数据是从收银同步的，因此二维火掌柜添加或修改过设置信息后，需要先更新收银</string>
-</resources>
