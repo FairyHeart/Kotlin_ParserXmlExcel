@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="[refactor]资源比较">
+    <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/src/com/null/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <recent name="D:\studio_github\android-XlsParserFile\src\com\parser" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.com.null.TestKt">
+  <component name="RunManager" selected="Kotlin.com.parser.xmlToXls.TestKt">
     <configuration name="com.null.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="android-XlsParserFile" />
       <option name="VM_PARAMETERS" />
@@ -128,10 +128,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.com.parser.xmlToXls.TestKt" />
         <item itemvalue="Kotlin.com.null.TestKt" />
         <item itemvalue="Kotlin.com.search.TestKt" />
         <item itemvalue="Kotlin.com.parser.xlsToXml.TestKt" />
-        <item itemvalue="Kotlin.com.parser.xmlToXls.TestKt" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583481377438</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[refactor]资源比较">
+      <created>1589867832195</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589867832195</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -228,14 +235,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="[refactor]资源比较" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate" timestamp="1583479365182">
-      <screen x="1920" y="-104" width="1920" height="1200" />
-    </state>
-    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479365182" />
-    <state x="360" y="125" key="CommitChangelistDialog2" timestamp="1589867806456">
+    <state x="676" y="361" width="768" height="708" key="#xdebugger.evaluate" timestamp="1589870480866">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="360" y="125" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589867806456" />
+    <state x="676" y="361" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870480866" />
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479365182" />
+    <state x="360" y="125" key="CommitChangelistDialog2" timestamp="1589872625322">
+      <screen x="0" y="0" width="1920" height="1160" />
+    </state>
+    <state x="360" y="125" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872625322" />
     <state x="2280" y="25" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583481376997" />
     <state width="925" height="582" key="DebuggerActiveHint" timestamp="1583479287510">
       <screen x="1920" y="-104" width="1920" height="1200" />
@@ -246,37 +254,45 @@
     </state>
     <state x="735" y="320" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589867760566" />
     <state x="2655" y="227" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583729584773" />
-    <state width="1868" height="323" key="GridCell.Tab.0.bottom" timestamp="1583748147379">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="325" key="GridCell.Tab.0.bottom" timestamp="1589872596057">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
     <state width="1868" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="323" key="GridCell.Tab.0.center" timestamp="1583748147379">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="325" key="GridCell.Tab.0.center" timestamp="1589872596057">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="325" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
     <state width="1868" height="323" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="323" key="GridCell.Tab.0.left" timestamp="1583748147378">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="325" key="GridCell.Tab.0.left" timestamp="1589872596057">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="325" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
     <state width="1868" height="323" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147378" />
-    <state width="1868" height="323" key="GridCell.Tab.0.right" timestamp="1583748147379">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="325" key="GridCell.Tab.0.right" timestamp="1589872596057">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="325" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
     <state width="1868" height="323" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="323" key="GridCell.Tab.1.bottom" timestamp="1583748147379">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="314" key="GridCell.Tab.1.bottom" timestamp="1589870546692">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
     <state width="1868" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="323" key="GridCell.Tab.1.center" timestamp="1583748147379">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="314" key="GridCell.Tab.1.center" timestamp="1589870546692">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="314" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
     <state width="1868" height="323" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="323" key="GridCell.Tab.1.left" timestamp="1583748147379">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="314" key="GridCell.Tab.1.left" timestamp="1589870546692">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="314" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
     <state width="1868" height="323" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="323" key="GridCell.Tab.1.right" timestamp="1583748147379">
-      <screen x="1920" y="-104" width="1920" height="1200" />
+    <state width="1868" height="314" key="GridCell.Tab.1.right" timestamp="1589870546692">
+      <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state width="1868" height="314" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
     <state width="1868" height="323" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
     <state x="367" y="138" key="SettingsEditor" timestamp="1589867768694">
       <screen x="0" y="0" width="1920" height="1160" />
@@ -297,12 +313,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>306</line>
+          <line>308</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>205</line>
+          <line>207</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
@@ -314,6 +330,11 @@
           <url>file://$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt</url>
           <line>146</line>
           <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>135</line>
+          <option name="timeStamp" value="78" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

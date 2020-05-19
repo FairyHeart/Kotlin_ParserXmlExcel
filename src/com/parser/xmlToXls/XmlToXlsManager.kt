@@ -134,11 +134,13 @@ class XmlToXlsManager private constructor() {
                         }
                     stringFiles.forEach {
                         val txt = it.readText()
-                            .replace("<?xml version=\"1.0\" encoding=\"utf-8\"?>", "")
-                            .replace("<?xml version=\"1.0\" ?>", "")
-                            .replace("<resources><?xml version=\"1.0\" encoding=\"utf-8\"?>", "")
-                            .replace("<resources>", "")
-                            .replace("</resources>", "")
+                            .replace("<?xml version=\"1.0\" encoding=\"utf-8\"?>", "", ignoreCase = true)
+                            .replace("<?xml version=\"1.0\" ?>", "", ignoreCase = true)
+                            .replace("<resources><?xml version=\"1.0\" encoding=\"utf-8\"?>", "", ignoreCase = true)
+                            .replace("<resources>", "", ignoreCase = true)
+                            .replace("</resources>", "", ignoreCase = true)
+                            .replace("<resources xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">","",ignoreCase = true)
+                            .replace("<?xml version=\"1.0\" encoding=\"UTF-8\"?><resources xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">","",ignoreCase = true)
                         newFile.appendText(txt)
                     }
                 }

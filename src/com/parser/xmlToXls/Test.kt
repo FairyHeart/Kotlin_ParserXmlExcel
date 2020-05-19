@@ -13,7 +13,7 @@ fun main() {
     val rootDir = "D://parserExcel"
 //    val dirName = "mobile.res"a
     val dirName = "cashline"
-    val xlsName = "display.xlsx"
+    val xlsName = "cashline.xlsx"
     val isMoreDire = true
     val xlsWriteBean = XlsWriteBean.Builder
         .setRootDir(rootDir)
