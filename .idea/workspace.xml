@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/null/Test.kt" afterDir="false" />
+    <list default="true" id="5792754c-cbfc-44ae-83e7-0b2aa82a3702" name="Default Changelist" comment="fix :格式解析错误问题">
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/null/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/null/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/FileUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/FileUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/utils/IOUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager$writeXmlFile$$inlined$forEach$lambda$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xlsToXml/XlsToXmlManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/TestKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/TestKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/parser/xmlToXls/XmlToXlsManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/search/CompareManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/android-XlsParserFile/com/search/CompareManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parser/utils/FileUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/utils/FileUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/Test.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/XlsWriteBean.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/parser/xmlToXls/bean/XlsWriteBean.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +33,19 @@
         <option value="Kotlin File" />
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="git@github.com:FairyHeart/Kotlin_ParserXmlExcel.git" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1WCXRmTLe35U3PsMBk5HC1JuJkL" />
   <component name="ProjectLevelVcsManager">
@@ -31,7 +53,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -39,6 +60,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -52,11 +74,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
@@ -74,7 +96,20 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.com.parser.xmlToXls.TestKt">
-    <configuration name="com.null.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.parser.Test" />
+      <module name="android-XlsParserFile" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.parser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.null.TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="android-XlsParserFile" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -87,7 +122,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.parser.xlsToXml.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.parser.xlsToXml.TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="android-XlsParserFile" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -100,7 +135,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.parser.xmlToXls.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.parser.xmlToXls.TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="android-XlsParserFile" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -113,7 +148,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.search.TestKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="com.search.TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="android-XlsParserFile" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
@@ -129,26 +164,15 @@
     <recent_temporary>
       <list>
         <item itemvalue="Kotlin.com.parser.xmlToXls.TestKt" />
+        <item itemvalue="Kotlin.com.parser.xlsToXml.TestKt" />
+        <item itemvalue="Application.Test" />
         <item itemvalue="Kotlin.com.null.TestKt" />
         <item itemvalue="Kotlin.com.search.TestKt" />
-        <item itemvalue="Kotlin.com.parser.xlsToXml.TestKt" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -235,206 +259,107 @@
     <option name="LAST_COMMIT_MESSAGE" value="[refactor]资源比较" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="676" y="361" width="768" height="708" key="#xdebugger.evaluate" timestamp="1589870480866">
+    <state x="440" y="154" key="#Project_Structure" timestamp="1592983520348">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
+    <state x="440" y="154" key="#Project_Structure/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1592983520348" />
+    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate" timestamp="1592215882307">
+      <screen x="1920" y="-104" width="1920" height="1200" />
+    </state>
     <state x="676" y="361" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870480866" />
-    <state x="2596" y="269" width="768" height="708" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479365182" />
+    <state x="2596" y="269" key="#xdebugger.evaluate/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592215882307" />
     <state x="360" y="125" key="CommitChangelistDialog2" timestamp="1589872625322">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="360" y="125" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872625322" />
-    <state x="2280" y="25" key="CommitChangelistDialog2/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583481376997" />
-    <state width="925" height="582" key="DebuggerActiveHint" timestamp="1583479287510">
+    <state x="2655" y="227" key="FileChooserDialogImpl" timestamp="1592327781299">
       <screen x="1920" y="-104" width="1920" height="1200" />
     </state>
-    <state width="925" height="582" key="DebuggerActiveHint/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583479287510" />
-    <state x="735" y="320" key="FileChooserDialogImpl" timestamp="1589867760566">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
     <state x="735" y="320" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589867760566" />
-    <state x="2655" y="227" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583729584773" />
-    <state width="1868" height="325" key="GridCell.Tab.0.bottom" timestamp="1589872596057">
+    <state x="2655" y="227" key="FileChooserDialogImpl/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592327781299" />
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1595389301624">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
-    <state width="1868" height="323" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="325" key="GridCell.Tab.0.center" timestamp="1589872596057">
+    <state width="1868" height="325" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1590378191996" />
+    <state width="1868" height="469" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595389301624" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1595389301624">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="325" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
-    <state width="1868" height="323" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="325" key="GridCell.Tab.0.left" timestamp="1589872596057">
+    <state width="1868" height="325" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1590378191996" />
+    <state width="1868" height="469" key="GridCell.Tab.0.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595389301624" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1595389301624">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="325" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
-    <state width="1868" height="323" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147378" />
-    <state width="1868" height="325" key="GridCell.Tab.0.right" timestamp="1589872596057">
+    <state width="1868" height="325" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1590378191996" />
+    <state width="1868" height="469" key="GridCell.Tab.0.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595389301624" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1595389301624">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="325" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872596057" />
-    <state width="1868" height="323" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="314" key="GridCell.Tab.1.bottom" timestamp="1589870546692">
+    <state width="1868" height="325" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1590378191996" />
+    <state width="1868" height="469" key="GridCell.Tab.0.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595389301624" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom" timestamp="1595388379597">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
-    <state width="1868" height="323" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="314" key="GridCell.Tab.1.center" timestamp="1589870546692">
+    <state width="1868" height="314" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872674592" />
+    <state width="1868" height="469" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="396" key="GridCell.Tab.1.bottom/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595388379597" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center" timestamp="1595388379597">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="314" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
-    <state width="1868" height="323" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="314" key="GridCell.Tab.1.left" timestamp="1589870546692">
+    <state width="1868" height="314" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872674592" />
+    <state width="1868" height="469" key="GridCell.Tab.1.center/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="396" key="GridCell.Tab.1.center/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595388379597" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left" timestamp="1595388379597">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="314" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
-    <state width="1868" height="323" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state width="1868" height="314" key="GridCell.Tab.1.right" timestamp="1589870546692">
+    <state width="1868" height="314" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872674592" />
+    <state width="1868" height="469" key="GridCell.Tab.1.left/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="396" key="GridCell.Tab.1.left/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595388379597" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right" timestamp="1595388379597">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state width="1868" height="314" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589870546692" />
-    <state width="1868" height="323" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583748147379" />
-    <state x="367" y="138" key="SettingsEditor" timestamp="1589867768694">
+    <state width="1868" height="314" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589872674592" />
+    <state width="1868" height="469" key="GridCell.Tab.1.right/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1592218810571" />
+    <state width="1877" height="396" key="GridCell.Tab.1.right/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1595388379597" />
+    <state x="367" y="138" key="SettingsEditor" timestamp="1592983590746">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
     <state x="367" y="138" key="SettingsEditor/0.0.1920.1160/1920.-104.1920.1200@0.0.1920.1160" timestamp="1589867768694" />
-    <state x="2287" y="39" key="SettingsEditor/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583729603740" />
-    <state x="365" y="222" width="1571" height="810" maximized="true" key="dock-window-1" timestamp="1583397256255">
-      <screen x="0" y="0" width="1920" height="1160" />
-    </state>
-    <state x="365" y="222" width="1571" height="810" maximized="true" key="dock-window-1/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583397256255" />
-    <state x="2442" y="61" width="874" height="1034" key="search.everywhere.popup" timestamp="1583474656991">
-      <screen x="1920" y="-104" width="1920" height="1200" />
-    </state>
-    <state x="2442" y="61" width="874" height="1034" key="search.everywhere.popup/0.0.1920.1160/1920.-104.1920.1200@1920.-104.1920.1200" timestamp="1583474656991" />
+    <state x="367" y="138" key="SettingsEditor/0.0.1920.1160/1920.0.1920.1200@0.0.1920.1160" timestamp="1592983590746" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>308</line>
+          <line>319</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>207</line>
+          <line>218</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt</url>
-          <line>91</line>
-          <option name="timeStamp" value="75" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/src/com/parser/xlsToXml/XlsToXmlManager.kt</url>
-          <line>146</line>
-          <option name="timeStamp" value="76" />
+          <line>105</line>
+          <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="kotlin-line">
           <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
-          <line>135</line>
-          <option name="timeStamp" value="78" />
+          <line>55</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/com/parser/xmlToXls/XmlToXlsManager.kt</url>
+          <line>123</line>
+          <option name="timeStamp" value="82" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>android-XlsParserFile</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.34" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>KotlinJavaRuntime</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

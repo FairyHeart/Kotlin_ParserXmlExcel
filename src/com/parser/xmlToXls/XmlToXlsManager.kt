@@ -49,11 +49,12 @@ class XmlToXlsManager private constructor() {
         val dirName = mBuilder.dirName
         val xlsName = mBuilder.xlsName
         val file = File(rootDir, dirName)
+        val printFile = FileUtils.createNewDir(mBuilder.printDir, dirName)
         var fos: FileOutputStream? = null
         if (file.exists()) {
             try {
-                failFile = FileUtils.createNewFile(file.absolutePath, "默认资源没有资源.xml")
-                this.writeNewFile(rootFile = file)
+                failFile = FileUtils.createNewFile(printFile.absolutePath, "默认资源没有资源.xml")
+                this.writeNewFile(rootFile = file, printFile = printFile)
                 //第一步，创建一个webbook，对应一个Excel文件
                 mWorkbook = if (xlsName.toLowerCase().endsWith("xlsx")) {
                     XSSFWorkbook()
@@ -61,14 +62,14 @@ class XmlToXlsManager private constructor() {
                     HSSFWorkbook()
                 }
                 //如果已经有了，先删除
-                val filePath = rootDir + File.separator + dirName
+                val filePath = mBuilder.printDir + File.separator + dirName
                 val xlsFile = File(filePath, xlsName)
                 if (xlsFile.exists()) {
                     xlsFile.delete()
                 }
                 //开始写数据到 xls
                 if (mBuilder.isMoreDire) {
-                    val fils = file.listFiles()
+                    val fils = printFile.listFiles()
                         .filter {
                             it.isDirectory
                         }.filter {
@@ -94,7 +95,7 @@ class XmlToXlsManager private constructor() {
         }
     }
 
-    private fun writeNewFile(rootFile: File) {
+    private fun writeNewFile(rootFile: File, printFile: File) {
         if (rootFile.exists()) {
             val strFiles = mutableListOf<String>()
             val files = rootFile.walk()
@@ -118,7 +119,9 @@ class XmlToXlsManager private constructor() {
             }
 
             strFiles.forEachIndexed { index, it ->
-                var newFile = File(it, "new_strings.xml")
+                //先创建目录
+                FileUtils.createNewDir(it.replace(rootFile.path, printFile.path))
+                var newFile = File(it.replace(rootFile.path, printFile.path), "new_strings.xml")
                 if (!newFile.exists()) {
                     newFile.createNewFile()
                     newFile.appendText("<resources>")
@@ -139,8 +142,16 @@ class XmlToXlsManager private constructor() {
                             .replace("<resources><?xml version=\"1.0\" encoding=\"utf-8\"?>", "", ignoreCase = true)
                             .replace("<resources>", "", ignoreCase = true)
                             .replace("</resources>", "", ignoreCase = true)
-                            .replace("<resources xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">","",ignoreCase = true)
-                            .replace("<?xml version=\"1.0\" encoding=\"UTF-8\"?><resources xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">","",ignoreCase = true)
+                            .replace(
+                                "<resources xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">",
+                                "",
+                                ignoreCase = true
+                            )
+                            .replace(
+                                "<?xml version=\"1.0\" encoding=\"UTF-8\"?><resources xmlns:xliff=\"urn:oasis:names:tc:xliff:document:1.2\">",
+                                "",
+                                ignoreCase = true
+                            )
                         newFile.appendText(txt)
                     }
                 }

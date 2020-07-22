@@ -16,6 +16,7 @@ object FileUtils {
      * @param fileName
      */
     fun createNewFile(dir: String, fileName: String): File {
+        this.createNewDir(dir)
         val file = File(dir, fileName)
         if (file.exists()) {
             file.delete()
@@ -23,6 +24,18 @@ object FileUtils {
             file.createNewFile()
         }
         return file
+    }
+
+    fun createNewDir(dir: String, dirName: String? = null): File {
+        val dirFile = if (dirName.isNullOrBlank()) {
+            File(dir)
+        } else {
+            File(dir, dirName)
+        }
+        if (!dirFile.exists()) {
+            dirFile.mkdirs()
+        }
+        return dirFile
     }
 
     /**

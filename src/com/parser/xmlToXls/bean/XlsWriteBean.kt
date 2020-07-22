@@ -13,10 +13,12 @@ class XlsWriteBean(val mBuilder: Builder) {
          * 跟目录
          */
         lateinit var rootDir: String
+
         /**
          * 需要输出的excel目录名字
          */
         lateinit var xlsName: String
+
         /**
          * 转换values存放目录
          */
@@ -26,6 +28,16 @@ class XlsWriteBean(val mBuilder: Builder) {
          * 是否多目录读取
          */
         var isMoreDire = false
+
+        /**
+         * 输入目录
+         */
+        lateinit var printDir: String
+
+        fun setPrintDir(printDir: String): Builder {
+            Builder.printDir = printDir
+            return this
+        }
 
         fun setRootDir(rootDir: String): Builder {
             Builder.rootDir = rootDir

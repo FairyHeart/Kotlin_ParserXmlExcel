@@ -102,11 +102,13 @@ class XlsToXmlManager {
                         val cell = rs.getRow(i)
                         for (j in 0 until colNum) {
                             if (i == 0) {//读取第一行的标题
-                                var title = rs.getRow(0)[j].contents.trim()
-                                if (title.isNotBlank()) {
-                                    colFirstMap[j] = title
+                                if (rs.getRow(0).size > j) {
+                                    var title = rs.getRow(0)[j].contents.trim()
+                                    if (title.isNotBlank()) {
+                                        colFirstMap[j] = title
+                                    }
+                                    failMap[title] = mutableListOf()
                                 }
-                                failMap[title] = mutableListOf()
                             } else {
                                 if (j > 0) {
                                     if (!colMap.containsKey(j)) {
@@ -115,7 +117,7 @@ class XlsToXmlManager {
                                     if (cell.size > j) {
                                         colMap[j]?.add(XlsRowBean(cell[0].contents, cell[j].contents))
                                     } else {
-                                        if (colFirstMap[j]?.contains("novotill", ignoreCase = true) == false) {
+                                        if (colFirstMap[j]?.contains("novotill", ignoreCase = true) == false && cell.size>0) {
                                             colMap[j]?.add(XlsRowBean(cell[0].contents, ""))
 
                                             val failStr = "<string name=\"${cell[0].contents}\"></string>"
