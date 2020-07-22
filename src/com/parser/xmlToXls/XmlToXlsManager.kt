@@ -120,8 +120,8 @@ class XmlToXlsManager private constructor() {
 
             strFiles.forEachIndexed { index, it ->
                 //先创建目录
-                FileUtils.createNewDir(it.replace(rootFile.path, printFile.path))
-                var newFile = File(it.replace(rootFile.path, printFile.path), "new_strings.xml")
+                val printFile2 = FileUtils.createNewDir(it.replace(rootFile.path, printFile.path))
+                var newFile = File(printFile2.absolutePath, "new_strings.xml")
                 if (!newFile.exists()) {
                     newFile.createNewFile()
                     newFile.appendText("<resources>")
@@ -130,6 +130,7 @@ class XmlToXlsManager private constructor() {
                     newFile.appendText("<resources>")
                 }
                 val folderFile = File(it)
+                var sb = StringBuffer()
                 if (folderFile.exists()) {
                     val stringFiles = folderFile.walk()
                         .filter {
@@ -152,10 +153,22 @@ class XmlToXlsManager private constructor() {
                                 "",
                                 ignoreCase = true
                             )
+                        if (txt.isNotBlank()) {
+                            sb.append(txt)
+                        }
                         newFile.appendText(txt)
                     }
                 }
                 newFile.appendText("</resources>")
+
+                if (sb.isBlank()) {
+                    var projectName = newFile.path.replace(printFile.path,"").substring(1)
+                    var newProjectName = projectName.substring(0,projectName.indexOf("\\"))
+                    val removeFile= File(printFile.path,newProjectName)
+                    if (removeFile.exists()) {
+                        removeFile.deleteRecursively()
+                    }
+                }
             }
         }
     }
