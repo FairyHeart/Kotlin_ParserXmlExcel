@@ -24,7 +24,7 @@ fun main() {
  */
 private fun startParserFile() {
 
-    val dir = "d://parserExcel"
+    val dir = "E://stringToXml"
     val fileName = "display.xls"
 
     val excelFile = XlsToXmlManager()
