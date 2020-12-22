@@ -10,7 +10,7 @@ import com.parser.xmlToXls.bean.XlsWriteBean
  */
 fun main() {
     val printDir = "E://stringToXml"
-    val rootDir = "E://dfire-i18n-workspace"
+    val rootDir = "E://studio_dfire3"
 //    val dirName = "mobile.res"
     val dirName = "cashline"
     val xlsName = "cashline.xlsx"

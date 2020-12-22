@@ -15,11 +15,11 @@ object Constants {
 
     val languageMap = mutableMapOf(
         Pair("简体中文", "values"),
-        Pair("English", "values-en"),
-        Pair("Spanish", "values-es"),
-        Pair("韩语", "values-ko"),
-        Pair("葡萄牙", "values-pt-rPT"),
-        Pair("西班牙", "values-th-rTH"),
+//        Pair("English", "values-en")
+//        Pair("Spanish", "values-es"),
+//        Pair("韩语", "values-ko"),
+//        Pair("葡萄牙", "values-pt-rPT"),
+//        Pair("西班牙", "values-th-rTH"),
         Pair("繁体中文/繁中", "values-zh-rTW")
     )
 }

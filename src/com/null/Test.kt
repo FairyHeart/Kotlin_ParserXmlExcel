@@ -3,7 +3,7 @@ package com.`null`
 import java.io.File
 
 /**
- *
+ * 替换字符
  *
  * @author: Guazi.
  * @date  : 2020-03-09.
